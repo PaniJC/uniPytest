@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+    <testsuite name="pytest" errors="0" failures="0" skipped="0" tests="15" time="0.037" timestamp="2024-07-02T11:46:33.569215" hostname="panijcpc">
+        <testcase classname="unitPytest.tests.test_calculadora" name="test_suma_positiva" time="0.001" />
+        <testcase classname="unitPytest.tests.test_calculadora" name="test_suma_negativa" time="0.000" />
+        <testcase classname="unitPytest.tests.test_calculadora" name="test_suma_de_ceros" time="0.000" />
+        <testcase classname="unitPytest.tests.test_controlador_api" name="test_get_data_from_api" time="0.002" />
+        <testcase classname="unitPytest.tests.test_controlador_api" name="test_no_get_data_from_api[400]" time="0.001" />
+        <testcase classname="unitPytest.tests.test_controlador_api" name="test_no_get_data_from_api[401]" time="0.001" />
+        <testcase classname="unitPytest.tests.test_controlador_api" name="test_no_get_data_from_api[402]" time="0.001" />
+        <testcase classname="unitPytest.tests.test_controlador_api" name="test_no_get_data_from_api[403]" time="0.001" />
+        <testcase classname="unitPytest.tests.test_controlador_api" name="test_no_get_data_from_api[404]" time="0.001" />
+        <testcase classname="unitPytest.tests.test_controlador_api" name="test_no_get_data_from_api[500]" time="0.001" />
+        <testcase classname="unitPytest.tests.test_controlador_api" name="test_no_get_data_from_api[501]" time="0.001" />
+        <testcase classname="unitPytest.tests.test_operaciones_cadenas" name="test_combinar_cadenas" time="0.000" />
+        <testcase classname="unitPytest.tests.test_operaciones_cadenas" name="test_combinar_cadenas_vacias" time="0.000" />
+        <testcase classname="unitPytest.tests.test_operaciones_cadenas" name="test_combinar_cadenas_con_cadena_vacia" time="0.000" />
+        <testcase classname="unitPytest.tests.test_operaciones_cadenas" name="test_combinar_cadenas_con_espacios_en_blanco" time="0.000" />
+    </testsuite>
+</testsuites>
